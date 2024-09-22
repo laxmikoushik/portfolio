@@ -1,0 +1,38 @@
+#last-line{
+    position: fixed;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(114, 44, 44, 0.3);
+}
+
+
+.main-container{
+    /* position: relative;
+    top: 2em; */
+    margin-top: 2em;
+    height: 4em;
+    border-radius: 1em;
+    background-color: rgb(103,177,173);
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.main-container a{
+  
+    text-decoration: none;
+   padding-left: 1em;
+   padding-top: 0.8em;
+    /* border-style: solid;  */
+    width: 5em;
+    height: 2em;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    margin-right: 2em;
+} 

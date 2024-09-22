@@ -1,0 +1,173 @@
+body{
+    background-color: powderblue;
+}
+
+.main-container{
+    /* position: relative;
+    top: 2em; */
+    margin-top: 2em;
+    height: 4em;
+    border-radius: 1em;
+    background-color: rgb(103,177,173);
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+/* .buttons{
+    width: 5em;
+    height: 2em;
+    background-color: whitesmoke; 
+    border-radius: 1em;
+    margin-right: 2em;
+    
+} */
+.main-container a{
+  
+    text-decoration: none;
+   padding-left: 1em;
+   padding-top: 0.8em;
+    /* border-style: solid;  */
+    width: 5em;
+    height: 2em;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    margin-right: 2em;
+} 
+
+#idAbout{
+    background-color: rgba(99, 91, 91, 0.5);
+    /* font-size: 20px; */
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#last-line{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(114, 44, 44, 0.3);
+}
+
+#img-about{
+    position: absolute;
+    top: 130px;
+    right: 80px;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out, box-shadow 0.5s ease-in-out;
+    
+}
+
+#img-about img{
+    border-radius: 50%;
+    transition: transform 1s ease-in;
+}
+#img-about:hover {
+    /* transform: scale(1.5); */
+    box-shadow: 2px 2px 20px black;
+}
+.about-title{
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 2em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    width: 70%;
+    border-radius: 20px;
+    transition: background-color 0.8s ease-out, letter-spacing 0.5s ease-out, box-shadow 0.5s ease-in-out;
+
+}
+.about-title:hover{
+    background-color: rgb(255, 255, 255, 0.6) ;
+    letter-spacing: 0.1em;
+    box-shadow: 2px 2px 10px black;
+}
+
+#about-des{
+    background-color: rgb(255, 255, 255, 0.2);
+    /* height: 2em; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    padding-top: 0.5em;
+    padding-left: 0.2em;
+    font-size: 1.25em;
+    font-weight: 500;
+
+    width: 71%;
+    border-radius: 20px;
+    transition: background-color 0.8s ease-out, font-size 0.5s ease-in,box-shadow 0.5s ease-in-out;
+}
+#about-des:hover{
+    background-color: rgb(255, 255, 255, 0.5) ;
+    /* letter-spacing: 4px; */
+    
+    /* box-shadow: 2px 2px 10px black; */
+}
+
+#edu-title{
+    
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.2) ;
+    padding-left: 3em;
+}
+
+#education-container{
+    background-color: rgb(255, 255, 255, 0.2) ;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-left: 15em;
+    padding-bottom: 2px;
+}
+
+#skills-title{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.2) ;
+    padding-left: 3em;
+}
+.skills-container{
+    font-size: larger;
+    background-color: rgb(255, 255, 255, 0.2) ;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-left: 12em;
+    padding-bottom: 2px;
+}
+.photo-title{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.2) ;
+    padding-left: 3em;
+
+}
+
+#photo-des{
+    background-color: rgb(255, 255, 255, 0.2);
+    /* height: 2em; */
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    /* width: 50%; */
+    border-radius: 20px;
+    font-size: large;
+    transition: background-color 0.8s ease-out, font-size 0.5s ease-in,box-shadow 0.5s ease-in-out;
+    margin-bottom: 2em;
+
+}
+#photo-des:hover{
+    background-color: rgb(255, 255, 255, 0.6) ;
+    /* letter-spacing: 4px; */
+    
+    box-shadow: 2px 2px 10px black;
+}

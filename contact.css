@@ -1,0 +1,138 @@
+body{
+    background-color: powderblue;
+}
+
+.main-container{
+    /* position: relative;
+    top: 2em; */
+    margin-top: 2em;
+    height: 4em;
+    border-radius: 1em;
+    background-color: rgb(103,177,173);
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+/* .buttons{
+    width: 5em;
+    height: 2em;
+    background-color: whitesmoke; 
+    border-radius: 1em;
+    margin-right: 2em;
+    
+} */
+.main-container a{
+  
+    text-decoration: none;
+   padding-left: 1em;
+   padding-top: 0.8em;
+    /* border-style: solid;  */
+    width: 5em;
+    height: 2em;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    margin-right: 2em;
+} 
+
+#idContact{
+    background-color: rgba(99, 91, 91, 0.5);
+    /* font-size: 20px; */
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#last-line{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(114, 44, 44, 0.3);
+}
+
+#contact-title{
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 2em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 20px;
+    text-align: center;
+    transition: background-color 0.8s ease-out, letter-spacing 0.5s ease-out, box-shadow 0.5s ease-in-out,transform 0.8s ease-in;
+}
+
+#contact-title:hover {
+    background-color: rgb(255, 255, 255, 1) ;
+    letter-spacing: 0.25em;
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.2);
+}
+.form-containers{
+    width: 30%;
+    margin-top: 30px;
+    margin: auto;
+}
+
+th, td {
+    padding: 15px;
+  }
+  
+#con-name{
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+#mail-link{
+    text-decoration: none;
+    color: black;
+}
+
+#insta-logo{
+    transform: scale(1.5);
+    border-radius: 25%;
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.3s ease-in-out,box-shadow 0.5s ease-in-out;
+}
+#insta-logo:hover{
+    transform: scale(2);
+    box-shadow: 2px 2px 20px black;
+}
+#twitter-logo{
+    transform: scale(1.5);
+    border-radius: 25%;
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.3s ease-in-out,box-shadow 0.5s ease-in-out;
+}
+#twitter-logo:hover{
+    transform: scale(2);
+    box-shadow: 2px 2px 20px black;
+}
+
+#linkedin-logo{
+    transform: scale(1.5);
+    border-radius: 25%;
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.3s ease-in-out,box-shadow 0.5s ease-in-out;
+}
+#linkedin-logo:hover{
+    transform: scale(2);
+    box-shadow: 2px 2px 20px black;
+}
+
+#mail-logo{
+    transform: scale(1.5);
+    border-radius: 20%;
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.3s ease-in-out,box-shadow 0.5s ease-in-out;
+
+}
+#mail-logo:hover{
+    transform: scale(2);
+    box-shadow: 2px 2px 20px black;
+}
